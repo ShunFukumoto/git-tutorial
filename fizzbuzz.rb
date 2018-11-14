@@ -5,6 +5,8 @@ for i in 1..100
         p Fizz
     elsif i % 5 == 0
         p Buzz
+    elsif i % 7 == 0
+	p git
     else
         p i
     end
