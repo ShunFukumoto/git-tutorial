@@ -1,15 +1,14 @@
 for i in 1..100
     if i % 3 == 0 && i % 5 == 0
-        p FizzBuzz
+        print "FizzBuzz"
     elsif i % 3 == 0
-        p Fizz
+        print "Fizz"
     elsif i % 5 == 0
-        p Buzz
+        print "Buzz"
     elsif i % 7 == 0
-	p git
+	print "git"
     else
         p i
     end
-
 end
 
